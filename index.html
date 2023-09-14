@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <link rel="stylesheet" href="./css/index.css" type="text/css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
@@ -22,61 +23,77 @@
     }
   </style>
 </head>
+
 <body>
   <main>
     <div class="container">
-      <div class="result_blue_side">
-        <h1 class="title_blue_side">Your Result</h1>
+      <div class="counter">
+        <h1 class="title_counter">Your Result</h1>
         <div class="circle_result">
           <div class="primal_result">76</div>
           <div>of 100</div>
         </div>
 
         <h2>Great</h2>
-        <p>You scored higher than 65% of the people who have taken these tests.</p>
+        <p>Your performance exceed 65% of the people conducting the test here!</p>
       </div>
-      <div class="result_white_side">
-        <h1 class="title_white_side">Summary</h1>
-        <div class="list_result">
-          <div class="reaction">
-            Reaction
+      <div class="summary">
+        <h1 class="title_summary">Summary</h1>
+
+        <div class="list_result reaction">
+          <div class="icon_title">
+            <img src="./assets/images/icon-reaction.svg" alt="icon" />
+            <div>
+              Reaction
+            </div>
           </div>
-          <div>
-            <span>80</span> / 100
-          </div>
-        </div>
-        <div class="list_result">
-          <div class="memory">
-            Memory
-          </div>
-          <div>
-            <span>92</span> / 100
+          <div class="match">
+            <span class="obtain">80</span><span class="goal">/ 100</span>
           </div>
         </div>
-        <div class="list_result">
-          <div class="verbal">
-            Verbal
+
+        <div class="list_result memory">
+          <div class="icon_title">
+            <img src="./assets/images/icon-memory.svg" alt="icon" />
+            <div>
+              Memory
+            </div>
           </div>
-          <div>
-            <span>61</span> / 100
-          </div>
-        </div>
-        <div class="list_result">
-          <div class="visual">
-            Visual
-          </div>
-          <div>
-            <span>72</span> / 100
+          <div class="match">
+            <span class="obtain">92</span><span class="goal">/ 100</span>
           </div>
         </div>
-        <div clas="btn_continue">
-          <a href="#" class="continue">Continue</a>
+
+        <div class="list_result verbal">
+          <div class="icon_title">
+            <img src="./assets/images/icon-verbal.svg" alt="icon" />
+            <div>
+              Verbal
+            </div>
+          </div>
+          <div class="match">
+            <span class="obtain">61</span><span class="goal">/ 100</span>
+          </div>
         </div>
+
+        <div class="list_result visual">
+          <div class="icon_title">
+            <img src="./assets/images/icon-visual.svg" alt="icon" />
+            <div>
+              Visual
+            </div>
+          </div>
+          <div class="match">
+            <span class="obtain">72</span><span class="goal">/ 100</span>
+          </div>
+        </div>
+
+          <a href="#" class="btn_continue">Continue</a>
       </div>
     </div>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/amoraleslandeo">Alejandro Morales Landeo</a>.
     </div>
   </main>
 </body>
