@@ -28,6 +28,7 @@ body {
     line-height: normal;
     color: var(--h1-general);
     background-color: var(--body-background);
+    margin: 0px;
 }
 
 main {
@@ -178,6 +179,12 @@ p {
     background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
 }
 
+.attribution {
+    color: var(--h1_white-btn);
+    font-size: 11px;
+    text-decoration: none;
+}
+
 /*Responsive atributes*/
 @media (max-width: 375px) {
 
@@ -283,4 +290,6 @@ p {
     .btn_continue {
         margin-top: 24px;
     }
+
+
 }
